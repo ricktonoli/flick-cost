@@ -1,0 +1,12 @@
+{
+  "name": "flick-data",
+  "version": "0.0.2",
+  "description": "Scraper for Flick Electric Website",
+  "dependencies": {
+	"moment" : "*",
+	"console-stamp" : "*",
+        "cheerio" : "*",
+        "request" : "*",
+	"config": "*"
+  }
+}
