@@ -1,12 +1,11 @@
 {
   "name": "flick-data",
   "version": "0.0.2",
-  "description": "Scraper for Flick Electric Website",
+  "description": "Retrieve price from Flick site and publish to homeassistant",
   "dependencies": {
-	"moment" : "*",
-	"console-stamp" : "*",
-        "cheerio" : "*",
-        "request" : "*",
-	"config": "*"
+    "config": "*",
+    "console-stamp": "*",
+    "flick-electric-api": "^1.0.1",
+    "request": "*"
   }
 }

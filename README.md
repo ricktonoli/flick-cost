@@ -1,2 +1,4 @@
 # flick-cost
-Small script to scrape flick website for current cost of electricity
+Small script to get current cost of electricity from Flick and publish to homeassistant.
+
+Uses: https://www.npmjs.com/package/flick-electric-api
