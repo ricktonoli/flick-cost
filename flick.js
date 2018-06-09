@@ -24,7 +24,7 @@ flick.on('price', success);
 flick.get_price(); 
 
 function success(price) {
-  cost = (price * 1.15).toFixed(2)
+  cost = (price * 1.15 * 100).toFixed(2)
   console.log("Cost: " + cost)
   if(!isNaN(cost)) {
     // publish to hass
